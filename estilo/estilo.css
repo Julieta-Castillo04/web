@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
+
+
+body{
+    background-color: #5C766D;
+
+    color:#BFC9D1;
+    font-family: "New Rocker", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+}
+header{
+        background-color:#7DA78C ;
+
+}
+h1{
+    margin: 0px;
+    border: 10px black solid ;
+    text-align: center;
+}
+p{
+    font-size: 24px ;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: overline underline ;
+}
+
+h2{
+    text-align: center;
+    font-size:  50px; ;
+}
+
+
+span{
+    background-color:#f3f3f1 ;
+    
+  
+}
+
+.Producto{
+    background-color: #51a789;
+    width: 300px;
+    color: #a3d1b3;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:20px 20px 20px 20px ;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.Botonver{
+    background-color: beige;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px ;
+    border: rgb(142, 245, 142) solid 2px;
+
+}
+
+.contenedorproducto{
+    display: flex;
+    justify-content:space-around;
+
+
+}
+.contenedorubicacion{
+    display: flex;
+    justify-content:space-evenly ;
+
+}
+.Navegacion{
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    background-color: #f3f3f1;
+    color: #5C766D;
+    padding: 10px 15px ;
+    border-radius: 20px;
+    text-decoration: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 768px){
+    .contenedorproducto{
+        flex-wrap: wrap;
+
+    }
+
+}
+
+
+@media(max-width: 567px){
+    .contenedorubicacion{
+        flex-wrap: wrap;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
